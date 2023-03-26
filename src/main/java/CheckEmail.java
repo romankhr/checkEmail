@@ -8,6 +8,5 @@ public class CheckEmail {
         Pattern pattern = Pattern.compile(regex);
         Matcher matcher = pattern.matcher(text);
         return matcher.matches();
-
     }
 }
